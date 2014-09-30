@@ -30,3 +30,7 @@ ul.nav {
 	font-family: 'Arvo', courier,serif;
     font-color: white;
 }
+.navbar-inverse {
+	border-bottom: 2px solid;
+    border-bottom-color: red;
+}
