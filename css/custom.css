@@ -1,7 +1,7 @@
 /* Move down content because we have a fixed navbar that is 50px tall */
 body {
   padding-top: 50px;
-  padding-bottom: 20px;
+  /*padding-bottom: 20px;*/
 }
 ul.nav, .jumbotron h1 {
 	font-family: 'Arvo', courier,serif;
@@ -34,3 +34,40 @@ ul.nav {
 	border-bottom: 2px solid;
     border-bottom-color: red;
 }
+.homepage {
+	text-align: center;
+}
+.homepage h2, .homepage h3{
+    font-family: 'Arvo', courier, serif;
+    color: #e74c3c;
+    text-transform: uppercase;	
+}
+.homepage h2{
+    font-size: 30px;
+}
+.homepage h3{
+	font-size: 26px;
+}
+.homepage p{
+	font-size: 21px;
+	font-weight: 300;
+}
+.homepage a{
+    color: #e74c3c;	
+}
+.homepage hr{
+	border-top: 1px solid#e74c3c;
+	width: 160px;
+	height: 13px;
+}
+.homepage a:hover{
+    color: #e74c3c;
+    text-decoration: none;
+    opacity: .6;
+}
+footer {
+	margin-top: 65px;
+	background-color: #e74c3c;
+	padding-top: 15px; 
+	padding-bottom: 15px;
+} 
